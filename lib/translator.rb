@@ -26,6 +26,7 @@ end
 
 
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning (file_path, emoticon)
+  hash = load_library(file_path)
+  
 end
