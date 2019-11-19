@@ -28,7 +28,7 @@ end
 
 def get_english_meaning (file_path, emoticon)
   hash = load_library(file_path)
-  hash["get_emoticon"].each do |jap_emot, meaning|
+  hash["get_meaning"].each do |jap_emot, meaning|
     return meaning if jap_emot == emoticon 
     if jap_emot == emoticon
       return meaning 
