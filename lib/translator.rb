@@ -1,6 +1,6 @@
 # require modules here
 
-def load_library
+def load_library(library)
   load_library
 end
 
